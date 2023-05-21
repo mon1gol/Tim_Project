@@ -1,0 +1,271 @@
+/* Index Style */
+
+* {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
+html {
+    background-image: url(8.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: 'IBM Plex Sans';
+}
+
+.header {
+    background: #7B4253;
+    color: aliceblue;
+    height: 20%;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 0 0 10px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 2%;
+}
+
+.header-logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+.header-logo img {
+    width: 30%;
+}
+
+.header-navbar {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120%;
+
+    margin-left: 35px;
+}
+
+.enter {
+    height: 60px;
+    border-radius: 10px 0 10px 10px;
+    background: #48160F;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.container {
+    height: 1639px;
+
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container img {
+    position: relative;
+    height: 17%;
+    left: 53%;
+}
+
+.container-h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(3rem + 6 * (100vw - 320px) / 880);
+
+    margin-bottom: 35px;
+}
+
+.line {
+    background: #7B4253;
+    width: 55%;
+    height: 2px;
+
+    margin-bottom: 85px;
+}
+
+.container-h2 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: calc(1.5rem + 6 * (100vw - 320px) / 880);
+
+    margin-bottom: 85px;
+}
+
+.container-button {
+    background: #D5B2CA;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+
+    width: 200px;
+    height: 50px;
+}
+
+.footer-content {
+    margin-left: 7%;
+    margin-right: 7%;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+
+    margin-top: 30%;
+    margin-bottom: 50px;
+
+    color: #FFFFFF;
+}
+
+/* Login Style*/
+
+.box {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.13);
+    padding: 30px 0px;
+}
+
+.box h1 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+.box input {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.05);
+    color: #fff;
+    border: 0;
+}
+
+.box input:focus,
+.box input:active,
+.box button:focus,
+.box button:active {
+    outline: none;
+}
+
+.box button {
+    background: #D5B2CA;
+    border: 0;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    width: 330px;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+}
+
+.box button:active {
+    background: #9d8495;
+}
+
+.box p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.box p span {
+    cursor: pointer;
+    color: #666;
+}
+
+/* List of Cases Style */
+
+.main-new-card{
+    display: flex;
+}
+
+.new-card{
+    background: #D5B2CA;
+    border-radius: 10px;
+
+    width: 300px;
+    height: 400px;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+
+.new-card .name-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-card{
+    background: #F5EAFB;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    width: 300px;
+    height: 50px;
+}
+
+.content-card{
+    display: flex;
+    flex-direction: column;
+}
+
+.content-card .add-card{
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-input{
+    background: #F5EAFB;
+    border-radius: 10px;
+    border: none;
+
+    width: 80%;
+    height: 70px;
+    padding: 5%;
+    margin: 5%;
+}
+
+.feedback-input:focus,
+.feedback-input:active {
+    outline: none;
+}
+
+.add-card{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.pen{
+    width: 16px;
+}

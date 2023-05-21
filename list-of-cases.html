@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Todolist</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,200;0,400;0,500;1,100;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="header-content">
+            <!-- <img src="/list 1.png" alt="logo"> -->
+            <div class="header-logo">ToDo</div>
+            <div class="header-navbar">Список дел</div>
+        </div>
+
+        <div class="enter">
+            <a>
+                <img src="user 1.png" alt="profile">
+            </a>
+        </div>
+    </header>
+
+    <main class="main-new-card">
+        <div class="new-card">
+            <div class="name-card">Название карточки</div>
+
+            <div class="content-card">
+                <p class="text">
+                    <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment_1" placeholder="Задача 1"></textarea>
+                </p>
+
+                <p class="text">
+                    <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment_2" placeholder="Задача 2"></textarea>
+                </p>
+
+                <div class="add-card">
+                    <div>
+                        <img src="image 1.png" alt="plus">
+                        <span>Добавить карточку</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="new-card">
+            <div class="name-card">Название карточки</div>
+
+            <div class="content-card">
+                <p class="text">
+                    <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment_3" placeholder="Задача 1"></textarea>
+                </p>
+
+                <p class="text">
+                    <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment_4" placeholder="Задача 2"></textarea>
+                </p>
+
+                <div class="add-card">
+                    <div>
+                        <img src="image 3.png" alt="plus" class="pen">
+                        <span>Редактировать</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
