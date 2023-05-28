@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    overflow-x: hidden;
+}
+
+html {
+    background-image: url(/8.png);
+    z-index: -2;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    font-family: 'IBM Plex Sans';
+}
+
+.header {
+    background: #7B4253;
+    color: aliceblue;
+    height: 20%;
+    margin-left: 7%;
+    margin-right: 7%;
+    border-radius: 0 0 10px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 2%;
+}
+
+.header-logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150%;
+}
+
+.header-logo img {
+    width: 30%;
+}
+
+.header-navbar {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 120%;
+
+    margin-left: 35px;
+}
+
+a,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.enter {
+    height: 60px;
+    border-radius: 10px 0 10px 10px;
+    background: #48160F;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0 60px;
+}
+
+.container {
+    height: 1639px;
+
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container img {
+    position: relative;
+    height: 17%;
+    left: 53%;
+}
+
+.container-h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: calc(3rem + 6 * (100vw - 320px) / 880);
+
+    margin-bottom: 35px;
+}
+
+.line {
+    background: #7B4253;
+    width: 55%;
+    height: 2px;
+
+    margin-bottom: 85px;
+}
+
+.container-h2 {
+    font-style: normal;
+    font-weight: 200;
+    font-size: calc(1.5rem + 6 * (100vw - 320px) / 880);
+
+    margin-bottom: 85px;
+}
+
+.container-button {
+    background: #D5B2CA;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+
+    width: 200px;
+    height: 50px;
+}
+
+.footer-content {
+    margin-left: 7%;
+    margin-right: 7%;
+
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+
+    margin-top: 30%;
+    margin-bottom: 50px;
+
+    color: #FFFFFF;
+}
