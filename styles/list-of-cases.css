@@ -1,0 +1,67 @@
+.main-new-card {
+    display: flex;
+}
+
+.new-card {
+    background: #D5B2CA;
+    border-radius: 10px;
+
+    width: 300px;
+    height: 400px;
+    margin-left: 7%;
+    margin-top: 7%;
+}
+
+.new-card .name-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-card {
+    background: #F5EAFB;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    width: 300px;
+    height: 50px;
+}
+
+.content-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-card .add-card {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-input {
+    background: #F5EAFB;
+    border-radius: 10px;
+    border: none;
+
+    width: 80%;
+    height: 70px;
+    padding: 5%;
+    margin: 5%;
+}
+
+.feedback-input:focus,
+.feedback-input:active {
+    outline: none;
+}
+
+.add-card {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.pen {
+    width: 16px;
+}

@@ -1,0 +1,17 @@
+<main class="body">
+    <form action="/api/auth/login" method="POST">
+        <div class="login-position">
+        <div class="box">
+            <h1>Войти</h1>
+            {{!-- <input type="text" placeholder="Логин" /> --}}
+            <input id="email" name="email" type="text" placeholder="Почта" required>
+            <input id="password" name="password" type="password" placeholder="Пароль" required>
+            <button>Вход</button>
+            <p>
+                Первый раз?
+                <a href="/regist">Зарегестрироваться</a>
+            </p>
+        </div>
+    </div>
+    </form>
+</main>
